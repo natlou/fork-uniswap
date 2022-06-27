@@ -9,7 +9,7 @@ require('@nomiclabs/hardhat-ethers');
 require('@nomiclabs/hardhat-waffle');
 require('@nomiclabs/hardhat-etherscan');
 
-const ethers = requre('ethers');
+const ethers = require('ethers');
 const credentials = require('./credentials.js');
 
 module.exports = {
