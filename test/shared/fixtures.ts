@@ -1,3 +1,5 @@
+import { artifacts, ethers } from "hardhat";
+
 const { BigNumber, Contract } = require("ethers");
 
 function expandTo18Decimals(n) {
